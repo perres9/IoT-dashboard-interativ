@@ -4,7 +4,7 @@
 
 Um projeto completo de **monitoramento de sensores IoT em tempo real** com dashboard moderno em Next.js e backend robusto em Spring Boot. Arquitetura fullstack integrada com suporte a WebSocket, MQTT e persistência de dados.
 
-## 🎯 Destaques
+## Destaques
 
 - **Frontend Responsivo**: Next.js 16 + React 19 + TypeScript 5 com tema escuro/claro
 - **Backend Escalável**: Spring Boot 2.7 com WebSocket, MQTT e REST API
@@ -15,7 +15,7 @@ Um projeto completo de **monitoramento de sensores IoT em tempo real** com dashb
 
 ---
 
-## 📁 Estrutura do Monorepo
+## Estrutura do Monorepo
 
 ```
 iot-dashboard/
@@ -74,7 +74,7 @@ iot-dashboard/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Pré-requisitos
 
@@ -144,7 +144,7 @@ Frontend rodará em: `http://localhost:3000`
 
 ---
 
-## 🔌 Endpoints API
+## Endpoints API
 
 ### REST Endpoints (Backend)
 
@@ -185,7 +185,7 @@ Frontend rodará em: `http://localhost:3000`
 
 ---
 
-## 🎨 Arquitetura Frontend
+## Arquitetura Frontend
 
 ### Sistema de Temas
 
@@ -233,7 +233,7 @@ localStorage.setItem('theme', theme);
 
 ---
 
-## ⚙️ Arquitetura Backend
+## Arquitetura Backend
 
 ### Spring Boot Stack
 
@@ -281,7 +281,7 @@ management.endpoint.health.show-details=always
 
 ---
 
-## 🔐 Segurança
+## Segurança
 
 ### Boas Práticas Implementadas
 
@@ -303,18 +303,9 @@ management.endpoint.health.show-details=always
    - Frontend em `localhost:3000` → Backend em `localhost:8080`
    - Configurável via `CorsConfig.java`
 
-### Checklist de Segurança
-
-- ✅ Nenhuma credencial real em arquivos
-- ✅ Environment templates com placeholders
-- ✅ .gitignore bloqueia build artifacts e security material
-- ✅ Senhas não aparecem em logs
-- ✅ CORS configurado restritivamente
-- ✅ WebSocket com validação básica
-
 ---
 
-## 📊 Tipos de Sensores Suportados
+##  Tipos de Sensores Suportados
 
 ```java
 public enum SensorType {
@@ -328,7 +319,7 @@ public enum SensorType {
 
 ---
 
-## 📦 Dependências Principais
+## Dependências Principais
 
 ### Frontend
 
@@ -371,7 +362,7 @@ public enum SensorType {
 
 ---
 
-## 🔧 Desenvolvimento
+## Desenvolvimento
 
 ### Modo Watch (Frontend)
 
@@ -406,7 +397,7 @@ Gera JAR em `target/backend-X.X.X.jar`
 
 ---
 
-## 🚢 Deployment
+## Deployment
 
 ### Opção 1: Docker
 
@@ -451,7 +442,7 @@ git subtree push --prefix iot-backend-java heroku main
 
 ---
 
-## 🧪 Testes
+## Testes
 
 ### Frontend (Jest + React Testing Library)
 
@@ -469,7 +460,7 @@ mvn test
 
 ---
 
-## 📝 Contribuindo
+## Contribuindo
 
 1. Fork o repositório
 2. Crie uma branch: `git checkout -b feature/minha-feature`
@@ -479,16 +470,15 @@ mvn test
 
 ---
 
-## 📄 Licença
+##  Licença
 
 MIT
 
 ---
 
-## 🙋 Suporte
+## Suporte
 
 Para dúvidas ou bugs:
-- Abra uma issue no GitHub
 - Entre em contato: perres9
 
 ---
