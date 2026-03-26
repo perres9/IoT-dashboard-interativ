@@ -1,4 +1,4 @@
-# IoT Dashboard - Fullstack Monorepo
+# IoT Dashboard - Fullstack 
 
 **Desenvolvido por:** perres9
 
