@@ -1,0 +1,27 @@
+# Maven build
+/target/
+
+# IDE/editor
+/.idea/
+/.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment and local overrides
+.env
+.env.*
+!.env.example
+src/main/resources/application-local.properties
+
+# Security material
+*.pem
+*.key
+*.p12
+*.jks
