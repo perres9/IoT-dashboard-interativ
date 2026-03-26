@@ -468,14 +468,6 @@ mvn test
 4. Push: `git push origin feature/minha-feature`
 5. Abra um Pull Request
 
----
-
-##  Licença
-
-MIT
-
----
-
 ## Suporte
 
 Para dúvidas ou bugs:
@@ -485,9 +477,9 @@ Para dúvidas ou bugs:
 
 **Desenvolvido como projeto fullstack moderno demonstrando:**
 
-- ✨ Tipagem segura TypeScript + Java
-- ⚡ Comunicação em tempo real com WebSocket
-- 🎨 Design responsivo e temático
-- 🔐 Segurança em produção
-- 🏗️ Arquitetura escalável
-- 📊 Visualização avançada de dados
+-  Tipagem segura TypeScript + Java
+-  Comunicação em tempo real com WebSocket
+-  Design responsivo e temático
+-  Segurança em produção
+-  Arquitetura escalável
+-  Visualização avançada de dados
